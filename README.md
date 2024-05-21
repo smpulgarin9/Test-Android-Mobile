@@ -1,4 +1,4 @@
-# Test-Android-Mobile
+# Test-IOS-Mobile
 
 ## Descripción
 Esta aplicación muestra una lista de películas populares y mejor valoradas utilizando datos de la API de The Movie Database (TMDb). Los usuarios pueden filtrar y buscar películas según ciertos criterios como el idioma original y la calificación.
