@@ -14,6 +14,22 @@
 		7FBEDDEE2BFBAAB200C19198 /* test_ios_saraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDDED2BFBAAB200C19198 /* test_ios_saraTests.swift */; };
 		7FBEDDF82BFBAAB200C19198 /* test_ios_saraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDDF72BFBAAB200C19198 /* test_ios_saraUITests.swift */; };
 		7FBEDDFA2BFBAAB200C19198 /* test_ios_saraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDDF92BFBAAB200C19198 /* test_ios_saraUITestsLaunchTests.swift */; };
+		7FBEDE082BFBBDBF00C19198 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDE072BFBBDBF00C19198 /* FilterView.swift */; };
+		7FBEDE0A2BFBCBB800C19198 /* FilterDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDE092BFBCBB800C19198 /* FilterDrawer.swift */; };
+		7FBEDE0D2BFBDF9300C19198 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDE0C2BFBDF9300C19198 /* MovieListView.swift */; };
+		7FBEDE102BFC252D00C19198 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDE0F2BFC252D00C19198 /* APIManager.swift */; };
+		7FBEDE112BFC6B7400C19198 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDE0F2BFC252D00C19198 /* APIManager.swift */; };
+		7FBEDE122BFC6B7400C19198 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDE0F2BFC252D00C19198 /* APIManager.swift */; };
+		7FBEDE132BFC6B7800C19198 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDE0C2BFBDF9300C19198 /* MovieListView.swift */; };
+		7FBEDE142BFC6B7800C19198 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDE0C2BFBDF9300C19198 /* MovieListView.swift */; };
+		7FBEDE152BFC6B7B00C19198 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDE072BFBBDBF00C19198 /* FilterView.swift */; };
+		7FBEDE162BFC6B7B00C19198 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDE072BFBBDBF00C19198 /* FilterView.swift */; };
+		7FBEDE172BFC6B7F00C19198 /* FilterDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDE092BFBCBB800C19198 /* FilterDrawer.swift */; };
+		7FBEDE182BFC6B8000C19198 /* FilterDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDE092BFBCBB800C19198 /* FilterDrawer.swift */; };
+		7FBEDE192BFC6B8300C19198 /* test_ios_saraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDDDC2BFBAAB000C19198 /* test_ios_saraApp.swift */; };
+		7FBEDE1A2BFC6B8400C19198 /* test_ios_saraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDDDC2BFBAAB000C19198 /* test_ios_saraApp.swift */; };
+		7FBEDE1B2BFC6B8700C19198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDDDE2BFBAAB000C19198 /* ContentView.swift */; };
+		7FBEDE1C2BFC6B8700C19198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDDDE2BFBAAB000C19198 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +60,10 @@
 		7FBEDDF32BFBAAB200C19198 /* test-ios-saraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-ios-saraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBEDDF72BFBAAB200C19198 /* test_ios_saraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ios_saraUITests.swift; sourceTree = "<group>"; };
 		7FBEDDF92BFBAAB200C19198 /* test_ios_saraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ios_saraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7FBEDE072BFBBDBF00C19198 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		7FBEDE092BFBCBB800C19198 /* FilterDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDrawer.swift; sourceTree = "<group>"; };
+		7FBEDE0C2BFBDF9300C19198 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		7FBEDE0F2BFC252D00C19198 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +114,9 @@
 		7FBEDDDB2BFBAAB000C19198 /* test-ios-sara */ = {
 			isa = PBXGroup;
 			children = (
+				7FBEDE0E2BFC24E500C19198 /* Services */,
+				7FBEDE0B2BFBDF7D00C19198 /* MovieList */,
+				7FBEDE062BFBBC8200C19198 /* Filter */,
 				7FBEDDDC2BFBAAB000C19198 /* test_ios_saraApp.swift */,
 				7FBEDDDE2BFBAAB000C19198 /* ContentView.swift */,
 				7FBEDDE02BFBAAB200C19198 /* Assets.xcassets */,
@@ -125,6 +148,31 @@
 				7FBEDDF92BFBAAB200C19198 /* test_ios_saraUITestsLaunchTests.swift */,
 			);
 			path = "test-ios-saraUITests";
+			sourceTree = "<group>";
+		};
+		7FBEDE062BFBBC8200C19198 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				7FBEDE072BFBBDBF00C19198 /* FilterView.swift */,
+				7FBEDE092BFBCBB800C19198 /* FilterDrawer.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		7FBEDE0B2BFBDF7D00C19198 /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				7FBEDE0C2BFBDF9300C19198 /* MovieListView.swift */,
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		7FBEDE0E2BFC24E500C19198 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7FBEDE0F2BFC252D00C19198 /* APIManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +306,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FBEDDDF2BFBAAB000C19198 /* ContentView.swift in Sources */,
+				7FBEDE082BFBBDBF00C19198 /* FilterView.swift in Sources */,
+				7FBEDE102BFC252D00C19198 /* APIManager.swift in Sources */,
+				7FBEDE0D2BFBDF9300C19198 /* MovieListView.swift in Sources */,
+				7FBEDE0A2BFBCBB800C19198 /* FilterDrawer.swift in Sources */,
 				7FBEDDDD2BFBAAB000C19198 /* test_ios_saraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FBEDE152BFC6B7B00C19198 /* FilterView.swift in Sources */,
+				7FBEDE112BFC6B7400C19198 /* APIManager.swift in Sources */,
+				7FBEDE1B2BFC6B8700C19198 /* ContentView.swift in Sources */,
+				7FBEDE192BFC6B8300C19198 /* test_ios_saraApp.swift in Sources */,
 				7FBEDDEE2BFBAAB200C19198 /* test_ios_saraTests.swift in Sources */,
+				7FBEDE132BFC6B7800C19198 /* MovieListView.swift in Sources */,
+				7FBEDE172BFC6B7F00C19198 /* FilterDrawer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +332,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FBEDE122BFC6B7400C19198 /* APIManager.swift in Sources */,
+				7FBEDE142BFC6B7800C19198 /* MovieListView.swift in Sources */,
+				7FBEDE1C2BFC6B8700C19198 /* ContentView.swift in Sources */,
 				7FBEDDF82BFBAAB200C19198 /* test_ios_saraUITests.swift in Sources */,
+				7FBEDE162BFC6B7B00C19198 /* FilterView.swift in Sources */,
+				7FBEDE1A2BFC6B8400C19198 /* test_ios_saraApp.swift in Sources */,
+				7FBEDE182BFC6B8000C19198 /* FilterDrawer.swift in Sources */,
 				7FBEDDFA2BFBAAB200C19198 /* test_ios_saraUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
